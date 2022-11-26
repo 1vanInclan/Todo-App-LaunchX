@@ -5,7 +5,7 @@ const TaskList = props => {
 
   const {list, setList} = props;
 
-  console.log(props);
+  // console.log(props);
 
   const onChangeStatus = e => {
     const {name, checked} = e.target;
